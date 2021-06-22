@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="header">
+        this is my header
+    </div> -->
+    <!-- <nav>
+    <ul>
+        <li>Test 1</li>
+        <li>Test 2</li>
+        <li>Test 3</li>
+        <li>Test 4</li>
+    </ul>
+    </nav> -->
+<div class="parent">
+    <div class="child">"At vero eos et accusamus et iust qui blanditiis praesentium vo"</div>
+</div>  
+</body>
+</html>
+
+
+<style> 
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    color: rgb(119, 88, 88);
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-variant: small-caps;
+}
+
+
+
+.parent {
+    height: 100vh;
+    width: 100vw;
+    background: beige;
+    color: green;
+    font-size: large;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
