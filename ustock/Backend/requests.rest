@@ -1,0 +1,9 @@
+GET http://localhost:4001/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU3RhZmYiLCJpYXQiOjE2MzM1NzAyODMsImV4cCI6MTYzMzU3MDM4M30.-X_oX9mMGRJRNZKO_dQKdc_njn1JG0FU-yRJtf0h2sU
+###
+POST http://localhost:4001/login
+Content-Type: application/json
+
+{
+    "username": "Staff"
+}
